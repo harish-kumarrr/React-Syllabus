@@ -1,120 +1,106 @@
-### 1. JavaScript (Must for React)
+# REACT.JS
+1.  npm package and npx create react app command and node.js environment
+2.  what is jsx and what is react.js and what is index file and what app.js file and
+3.  component name must be start with Captial Letters and
+4.  useState 5 scenarios and state update in useState
+5.  useEffect with dependency and without dependency
+6.  props LHS and RHS
+7.  state lifting parents to child and vise versa
+8.  map using index for manipulation like delete update
+9.  filter using index for manipulation like delete update
+10. findIndex
+11. find
+12. Routers and passing data between different routes
+13. axios fetch
+14. material ui or antd basis introduction
+15. redux
+16. class components
+17. degubbing console and elements in chrome
+18. conditionally show the div using useState
+19. condition ga showing using ternary operator
+20. ref
+21. assigning jsx to constant
+22. how useEffect is called on dependency changes
+23. form on submit
+24. router and history push and passing data from one route to another
+25. donot change props and only update the state
+26. use same components at multiple place and if we don't pass the some props to that components at some place what should i do
+27. crud operation
+28. keys
+29. life cycle methods in functional and class components
+30. context api,
+31. infinite loop cases in state update
+32. useSelector hooks
+33. useDispatch hooks
+34. useCallback and useMemos
+35. counter increment
+36. using drop-down changing the state conditional
+37. multiple class using template iterator
+38. adding dynamic classes
+39. adding dynamic css property to a div using condition
+40. localStorage
+41. Application in tab in network tab
+42. uuid library
+43. moment.js library
+44. different between and arrow function and this function and while creating of the React.js components
+45. what is git and what ticket and bigbucket and source tree and what is terminal
 
-- Variables, Scope, Hoisting
-- Closures, Callbacks, Promises
-- Async/Await
-- Event Loop
-- ES6+ (map, filter, spread, destructuring)
+# JAVASCRIPT
 
-### 2. Git + GitHub (Industry Mandatory)
+1.  Introduction
+2.  History of JavaScript
+3.  Download and Install vscode
+4.  How to execute javascript code
+5.  Hello World program
+6.  Intro to variables
+7.  Rules for naming variables
+8.  Let keyword
+9.  Const keyword
+10. String Indexing
+11. Useful string methods
+12. typeof , string to number, number to string conversion
+13. String Concatenation
+14. Template Strings
+15. undefined null bigint
+16. Booleans and comparison Operators
+17. if else , truthy and falsy values
+18. Ternary operator
+19. And Or Operator
+20. Nested If else
+21. if elseif
+22. Switch statement
+23. object and
+24. array destructure
+25. rest operator
+26. callback
+27. forEach method
+28. for in and for of
+29. map method
+30. filter method
+31. reduce method
+32. sort method
+33. find method
+34. every method
+35. some method
+36. fill method
+37. splice method
+38. Iterables, array like object
+39. What is DOM ?
+40. getElementById
+41. querySelector
+42. textContent and innerText
+43. Change the styles of elements
+44. querySelectorAll & getElementsbyClassName
+45. Iterate elements
+46. innerHTML
+47. DOM Tree
+48. setTimeout
+49. and setInternal
 
-- Git clone, commit, branch, merge
-- PR workflow
-- Code reviews
+# HTML
 
-HASE 2: Frontend Basics
+h1 and div and ol and li p, b, span, title, textarea, a and h1 tag difference, img, table,iframe, html, input, button,html,body,head,script tag, antd component and material UI
 
-- Semantic HTML
-- Flexbox, Grid
-- Responsive Design
-- Bootstrap (1 framework)
+# CSS
 
-HASE 3: React Core
-
-### 4. React Fundamentals
-
-- JSX
-- Components
-- Props
-- State
-- Events
-
-### 5. Hooks (Very Important)
-
-- useState
-- useEffect
-- useMemo
-- useCallback
-- useRef
-- Custom Hooks
-
-### 6. Routing
-
-- React Router
-- Protected Routes
-
-### 7. Forms
-
-- Controlled Inputs
-- Validation
-- React Hook Form
-
-HASE 4: State Management
-
-### 8. Redux
-
-- Store
-- Async Thunk
-
-### 9. Context API
-
-- When to use vs Redux
-
-HASE 5: Backend Integration
-
-### 10. API + Node Basics
-
-- REST APIs
-- Axios / Fetch
-- JWT Auth
-- CRUD
-
-### 11. MongoDB Intro
-
-- Collections
-- Mongoose
-- Basic queries
-
-HASE 6: Performance + Testing
-
-### 12. Performance
-
-- Code Splitting
-- Lazy Loading
-- Memoization
-- Bundle size
-
-### 13. Testing
-
-- Jest
-- React Testing Library
-- Unit + Integration tests
-
-### 15. GitHub Copilot and nti-Gravity
-
-- Generate components
-- Refactor code
-- Debug errors
-- Convert Figma → React
-- Test generation
-- Inline suggestions
-- Function generation
-- API boilerplate
-- Test creation
-- Prompt engineering for coding
-- AI debugging
-- AI architecture design
-- AI code review
-
-### 17. Architecture
-
-- Folder structure
-- Feature-based design
-- Clean Code
-
-### 18. TypeScript
-
-- Types
-- Interfaces
-- Generics
-- React with TS
+class and className,color,background,inline and inline,block and block,css selectors,margin,padding,position,flex,grid,flot,media,screen ,css box model,zindex,negative margin,important,id ,class,border,width,height ,overflow,alignment ,min width,max width, before after pseudo calssses and hover
