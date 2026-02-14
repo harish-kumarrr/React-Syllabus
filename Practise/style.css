@@ -1,0 +1,16 @@
+span.inline-demo {
+    display: inline;  
+    background-color: red;
+  }
+  
+  div.block-demo {
+    display: block;       /* full width, new line */
+    background-color: blue;
+  }
+  
+  span.inline-block-demo {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: lightblue;
+  }
