@@ -1,9 +1,3 @@
-# React.js Basics – Simple & Easy Notes
-
-Simple notes with clear examples for learning React. Use these as a quick reference.
-
----
-
 ## 1. npm, npx create-react-app, and Node.js Environment
 
 - **Node.js** – Lets you run JavaScript outside the browser. Install from [nodejs.org](https://nodejs.org). Comes with **npm** (Node Package Manager).
