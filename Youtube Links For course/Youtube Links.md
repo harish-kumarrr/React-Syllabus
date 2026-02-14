@@ -4,7 +4,7 @@ https://www.w3schools.com/html/default.asp
 # css
 https://www.w3schools.com/css/default.asp
 
-# Youtube Link
+# html and css Youtube Link
 https://youtube.com/playlist?list=PL4-IK0AVhVjOJs_UjdQeyEZ_cmEV3uJvx&si=1RCxEKCY61gFRSFX
 
 # Javascript
