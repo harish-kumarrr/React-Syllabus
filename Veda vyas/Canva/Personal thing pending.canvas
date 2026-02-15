@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"47d8472b6a123456","type":"text","text":"Me","x":-537,"y":-752,"width":250,"height":60},
+		{"id":"96c4f8f3d3a9fbd4","type":"text","text":"New Jio sim\n+\nICIC bank account on new sim with Nana\n+\nSBI bank account on nana sim","x":-1040,"y":-817,"width":294,"height":190},
+		{"id":"d0e87b7de24140ad","type":"text","text":"         - Hostel Nov 5th last date\n         - 1st and 2nd nov will search day wise Hostel : 250per day\n         - 300*12days = 3000\n         - ((130+70+161+50+65+70)*5)  = 2.7k","x":-652,"y":-540,"width":480,"height":180}
+	],
+	"edges":[
+		{"id":"16d0e9463a1c4b40","fromNode":"d0e87b7de24140ad","fromSide":"top","toNode":"47d8472b6a123456","toSide":"bottom"},
+		{"id":"51e2b80c4103b582","fromNode":"96c4f8f3d3a9fbd4","fromSide":"right","toNode":"47d8472b6a123456","toSide":"left"}
+	]
+}

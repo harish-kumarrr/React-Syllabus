@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "73ea3b5492616575",
+    "type": "split",
+    "children": [
+      {
+        "id": "a83ae539876ecb34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "409a2165f15b1352",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canva/loan.canvas",
+                "viewState": {
+                  "x": -563.3197227971252,
+                  "y": -105.80866107609978,
+                  "zoom": -1.5597579528566223
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "loan"
+            }
+          },
+          {
+            "id": "3c3ee69c0d4c033b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canva/loan.canvas",
+                "viewState": {
+                  "x": -470,
+                  "y": -150,
+                  "zoom": -1.6622485016369843
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "loan"
+            }
+          },
+          {
+            "id": "5fc8b8d60e10a989",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canva/Personal thing pending.canvas",
+                "viewState": {
+                  "x": -498.1050998434741,
+                  "y": -551.708171190561,
+                  "zoom": 0.05415405001050777
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Personal thing pending"
+            }
+          },
+          {
+            "id": "d2e3a3134c1bb70b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pending/part17.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "part17"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4decd17e857fc763",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3b12c1d7a4197378",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "433ac68671070c03",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "6ea828a432f4922d",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "53ab68e716cdd183",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "4c07b6f6b3e77b19",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7d1283e0682bd96b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "pending/part16.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "3967f1705c836e47",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "pending/part13.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "d0e8a22d0a645d90",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "pending/part13.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d2e3a3134c1bb70b",
+  "lastOpenFiles": [
+    "pending/part16.md",
+    "completed/Node/part15.md",
+    "pending/part 23.md",
+    "completed/Node/part14.md",
+    "completed/Node/part13.md",
+    "pending/part22.md",
+    "pending/part17.md",
+    "pending/part18.md",
+    "pending/part21.md",
+    "pending/part20.md",
+    "pending/part19.md",
+    "pending/prompt.md",
+    "Canva/loan.canvas",
+    "Canva/Personal thing pending.canvas",
+    "Canva/Study Plan.canvas",
+    "Untitled 1.md",
+    "Untitled.md",
+    "pending/-1 coding.md",
+    "hardForMe/naidu.md"
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "8a0cb4036405b246",
+    "type": "split",
+    "children": [
+      {
+        "id": "f456584ab05a78a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d4a7c282793872d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Loan/loan.canvas",
+                "viewState": {
+                  "x": -1056.830000000001,
+                  "y": -595.1700000000009,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "loan"
+            }
+          },
+          {
+            "id": "3fc03bcd2fb765d6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Loan/loan.canvas",
+                "viewState": {
+                  "x": -457.5,
+                  "y": 137.4563850402833,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "loan"
+            }
+          },
+          {
+            "id": "f5c1c6ee621b11b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pending/part22.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "part22"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6410558d93f03957",
+    "type": "split",
+    "children": [
+      {
+        "id": "f00f269e26510938",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "266142e482916a5a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "67ba5bb1e2cd109b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c01b0faac4e5eec9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "678cfbc9859c88bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cccf831483bcb1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbf1c5f6656be665",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "6f764bb6a034d8df",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "42c664dde9794730",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b8f17d68c045c2ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f5c1c6ee621b11b9",
+  "lastOpenFiles": [
+    "Loan/loan.canvas",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Canva/loan.canvas",
+    "Canva/Study Plan.canvas",
+    "Canva/Personal thing pending.canvas",
+    "Canva",
+    "pending/part22.md",
+    "completed/Node/part12a.md",
+    "completed/Node/part12.md",
+    "pending/prompt.md",
+    "namesthiNodeJs/Episode-02/Episode-02.md",
+    "pending/Todo.md",
+    "naiduGivenRefernces/Node.js Design Patterns Design and implement - Third Edition [BooxRack].pdf",
+    "completed/behaviourRound/readme.md",
+    "naiduGivenRefernces/Node.jsAndMongodb.pdf",
+    "namesthiNodeJs/Episode-05/epsicodeVideos/Screenshot_9.png",
+    "namesthiNodeJs/Episode-05/epsicodeVideos/Screenshot_8.png",
+    "hardForMe/tcp.md",
+    "hardForMe/node.jsMonitorinng.md",
+    "hardForMe/praticallyImplementation/praticalImplemtataion.md",
+    "hardForMe/praticallyImplementation",
+    "namesthiNodeJs/Episode-08/Screenshot_9.png",
+    "namesthiNodeJs/Episode-08/Screenshot_8.png",
+    "namesthiNodeJs/Episode-08/Screenshot_7.png",
+    "namesthiNodeJs/Episode-08/Screenshot_62.png",
+    "namesthiNodeJs/Episode-08/Screenshot_61.png",
+    "namesthiNodeJs/Episode-08/Screenshot_60.png",
+    "namesthiNodeJs/Episode-08/Screenshot_6.png",
+    "namesthiNodeJs/Episode-08/Screenshot_59.png",
+    "namesthiNodeJs/Episode-08/readme.md.md",
+    "namesthiNodeJs/Episode-08",
+    "namesthiNodeJs/Episode-07/readme.md.md",
+    "namesthiNodeJs/Episode-07/readFileSyncAndReadFile.md",
+    "namesthiNodeJs/Episode-07/nodeCrptoVsCrpto.md",
+    "namesthiNodeJs/Episode-07/consoleInNodeJs.md",
+    "namesthiNodeJs/Episode-07",
+    "namesthiNodeJs/Episode-06/readme.md",
+    "namesthiNodeJs/Episode-06",
+    "namesthiNodeJs/Episode-05/epsicodeVideos",
+    "namesthiNodeJs/Episode-04/Episode-04.md",
+    "namesthiNodeJs/Episode-05/Episode-05.md",
+    "namesthiNodeJs/Episode-03/Episode-03.md",
+    "namesthiNodeJs/app.js",
+    "namesthiNodeJs/Episode-04",
+    "unimp/completeProjectSetupArticelevel/completesetup.md",
+    "unimp/completeProjectSetupArticelevel/0question.md",
+    "unimp/completeProjectSetupArticelevel/basis.md",
+    "pending/todo08Sep2025.md"
+  ]
+}
