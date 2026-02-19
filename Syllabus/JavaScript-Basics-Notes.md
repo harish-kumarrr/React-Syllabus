@@ -215,11 +215,10 @@ Easier to read than long concatenation with `+`.
 
 ---
 
-## 15. undefined, null, bigint
+## 15. undefined, null
 
 - **undefined** – variable declared but not given a value; missing property.
 - **null** – “no value” on purpose (you set it).
-- **bigint** – for very large integers. Add **n** or use `BigInt()`.
 
 ```javascript
 let a;
