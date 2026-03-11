@@ -217,31 +217,9 @@ Layout in rows and columns.
 `1fr 2fr` = second column is twice as wide as the first.
 
 ---
+ 
 
-## 9. float
-
-Makes an element sit to the left or right; text/content can wrap around it. Older layout method; flex/grid are preferred for full layouts.
-
-**Example:**
-```css
-img {
-  float: left;
-  margin-right: 10px;
-}
-```
-
-**Clear float** so next content doesn’t wrap:
-```css
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-```
-
----
-
-## 10. Media queries and screen
+## 9. Media queries and screen
 
 Change styles based on screen size (e.g. mobile vs desktop).
 
@@ -267,7 +245,7 @@ Change styles based on screen size (e.g. mobile vs desktop).
 
 ---
 
-## 11. CSS Box Model
+## 10. CSS Box Model
 
 Every element is a box made of:
 
@@ -290,7 +268,7 @@ Every element is a box made of:
 
 ---
 
-## 12. z-index
+## 11. z-index
 
 Controls stacking order when elements overlap. Bigger number = on top.
 
@@ -305,7 +283,7 @@ Controls stacking order when elements overlap. Bigger number = on top.
 
 ---
 
-## 13. Negative margin
+## 12. Negative margin
 
 Moves the element in the opposite direction (can overlap or pull things closer).
 
@@ -320,7 +298,7 @@ Use sparingly; can make layout hard to follow.
 
 ---
 
-## 14. !important
+## 15. !important
 
 Forces a rule to win over other rules. Use only when really needed (e.g. overriding a library).
 
