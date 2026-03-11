@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+@media screen and (max-width: 568px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
+  }
+}
