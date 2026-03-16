@@ -1,1 +1,5 @@
-console.log("Hello World, 123");
+const headerElement = document.getElementById("header");
+
+if (headerElement) {
+  headerElement.innerHTML = "<p>hello world</p>";
+}
