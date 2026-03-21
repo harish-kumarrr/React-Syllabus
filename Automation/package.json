@@ -1,0 +1,17 @@
+{
+  "name": "naukri-mern-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "l": "node tests/linkedin-mernstack.spec.js",
+    "n": "node tests/naukri-apply-mernstack.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0"
+  }
+}
