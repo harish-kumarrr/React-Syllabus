@@ -1,5 +1,6 @@
 const { chromium } = require("playwright");
 const fs = require("fs");
+require("dotenv").config();
 const { constantsValue } = require("./constants/constants");
 (async () => {
   const browser = await chromium.launch({
@@ -51,8 +52,12 @@ const { constantsValue } = require("./constants/constants");
     for (let i = 0; i < jobLinks.length; i++) {
       try {
         await page.goto(jobLinks[i], { timeout: 2000 });
+        await page.waitForTimeout(
+          (constantsValue.delayBeforeApplyingAnotherJob / 2),
+        );
         const applyButton = await page.$("#apply-button");
         const applyOnCompanySite = await page.$("#company-site-button");
+
         if (applyButton) {
           await page.waitForTimeout(
             constantsValue.delayBeforeApplyingAnotherJob,

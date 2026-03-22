@@ -1,5 +1,6 @@
 const { chromium } = require("playwright");
 const { constantsValue } = require("./constants/constants");
+require("dotenv").config();
 const getUrl = (jobId = 4296041897) =>
   `https://www.linkedin.com/jobs/search/?currentJobId=${jobId}&f_AL=true&keywords=mern%20stack%20developer%2C%20node%20%2C%20react&origin=JOB_SEARCH_PAGE_JOB_FILTER`;
 //&start=25
