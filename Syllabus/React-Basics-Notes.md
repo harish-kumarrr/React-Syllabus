@@ -6,8 +6,8 @@
 
 **Create a new React app:**
 ```bash
-npx create-react-app my-app
-cd my-app
+npx create-react-app my-app or npm create vite@latest myapp
+cd myapp
 npm start
 ```
 
