@@ -52,22 +52,19 @@ const { constantsValue } = require("./constants/constants");
     for (let i = 0; i < jobLinks.length; i++) {
       try {
         await page.goto(jobLinks[i], { timeout: 2000 });
-        await page.waitForTimeout(
-          (constantsValue.delayBeforeApplyingAnotherJob / 2),
-        );
+        await page.waitForTimeout(1500);
         const applyButton = await page.$("#apply-button");
         const applyOnCompanySite = await page.$("#company-site-button");
-
+        let isApplied = true;
         if (applyButton) {
-          await page.waitForTimeout(
-            constantsValue.delayBeforeApplyingAnotherJob,
-          );
+          await page.waitForTimeout(1500);
           await applyButton.click();
           try {
             const chatbotPresent = await page.$(
               "div.chatbot_DrawerContentWrapper",
             );
             if (chatbotPresent) {
+              isApplied = false;
               console.log(
                 `Job ${i + 1} on page ${currentPage}: Skipped due to chatbot.`,
               );
@@ -83,6 +80,7 @@ const { constantsValue } = require("./constants/constants");
           }
           console.log(`Job ${i + 1} on page ${currentPage}: Applied.`);
         } else if (applyOnCompanySite) {
+          isApplied = false;
           // first read the file and check where the jobLinks[i] is present if present then skip else append the jobLinks[i] to the file
           // filename is applyOnCompanySite.json and it will be an array list and we will maintain a array list of applyOnCompanySiteList
           let applyOnCompanySiteList = [];
@@ -125,9 +123,13 @@ const { constantsValue } = require("./constants/constants");
           }
           await page.waitForTimeout(2000);
         } else {
+          isApplied = false;
           console.log(
             `Job ${i + 1} on page ${currentPage}: No apply button found.`,
           );
+        }
+        if (isApplied) {
+          console.log("Last Applied Job Link :", jobLinks[i]);
         }
       } catch (error) {
         console.log(
