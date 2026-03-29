@@ -9,30 +9,16 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api/schedule", (req, res) => {
-  const { timezone, dateTime } = req.query;
+ 
   const testZones = [
     "Asia/Kolkata",
     "Europe/London",
     "America/New_York",
     "America/Los_Angeles",
   ];
-
-  if (!timezone || !dateTime) {
-    return res.status(400).json({
-      error: "Query params required: timezone, dateTime (ISO)",
-    });
-  }
-
-  const base = DateTime.fromISO(String(dateTime), { zone: String(timezone) });
-  if (!base.isValid) {
-    return res.status(400).json({
-      error: "Invalid dateTime or timezone",
-      reason: base.invalidReason,
-    });
-  }
-
+  
   const time = testZones.map((tz) => ({
-    [tz]: base.setZone(tz).toFormat("dd MM yyyy HH mm ss"),
+    [tz]: DateTime.now().setZone(tz).toFormat("dd/MM/yyyy HH:mm:ss"),
   }));
 
   res.json({ time });
