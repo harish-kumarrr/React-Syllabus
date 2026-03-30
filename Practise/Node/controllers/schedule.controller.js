@@ -25,11 +25,6 @@ const scheduleNotificationHandler = async (req, res) => {
       { upsert: true }
     );
 
-  // Schedule the job immediately if not sent
-  if (!sent) {
-    scheduleNotification({ id, utcDate });
-  }
-
   return res.json({
     status: "success",
     Date,
