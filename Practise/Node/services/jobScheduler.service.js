@@ -22,7 +22,7 @@ const scheduleNotification = (element) => {
     console.warn(`Job for ID: ${element.id} is in the past (${element.utcDate}). Skipping.`);
     return;
   }
-
+  console.log("Registered for ID: ", element.id);
   try {
     const cron = new CronJob(scheduledTime, function () {
       console.log(`Notification for ID: ${element.id} sent at ${new Date().toISOString()}`);

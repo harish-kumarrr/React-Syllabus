@@ -1,5 +1,8 @@
 1. detect clinet timezone
+   # fronted
    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-   console.log(timezone); // e.g. "Asia/Kolkata"
+   # backend 
+   const { DateTime } = require("luxon");
+   DateTime.fromFormat(Date, "yyyy-MM-dd HH:mm", { zone: zone, }) .toUTC() .toISO();
 
 2. 
