@@ -1,32 +1,37 @@
 const express = require("express");
 const cors = require("cors");
-const { DateTime } = require("luxon");
+const { connectMongoLoop } = require("./db");
+require('dotenv').config()
+const { cronJobSchedule } = require("./services/notification.service");
+const scheduleRoutes = require("./routes/schedule.routes");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
+// Middleware
 app.use(cors());
 app.use(express.json());
 
-app.get("/api/schedule", (req, res) => {
- 
-  const testZones = [
-    "Asia/Kolkata",
-    "Europe/London",
-    "America/New_York",
-    "America/Los_Angeles",
-  ];
-  
-  const time = testZones.map((tz) => ({
-    [tz]: DateTime.now().setZone(tz).toFormat("dd/MM/yyyy HH:mm:ss"),
-  }));
+// Routes
+// Prefixing routes with /api for consistency
+app.use("/api", scheduleRoutes);
 
-  res.json({ time });
-});
+/**
+ * Server initialization sequence
+ */
+const start = async () => {
+  // Start Express Server
+  app.listen(PORT, () => {
+    console.log(`🚀 Server listening on http://localhost:${PORT}`);
+  });
 
-app.listen(PORT, () => {
-  console.log(`Server listening on http://localhost:${PORT}`);
-  console.log(
-    `Try: http://localhost:${PORT}/api/schedule?timezone=Asia/Kolkata&dateTime=2026-03-28T17:30:00`
-  );
+  // Connect to MongoDB with retry logic
+  await connectMongoLoop();
+
+  // Run initial cron job scan to schedule pending notifications
+  cronJobSchedule();
+};
+
+start().catch(err => {
+  console.error("Failed to start the application:", err);
 });
